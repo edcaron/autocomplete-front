@@ -18,6 +18,7 @@ const AutoCompleteInput = ({
             data-testid="auto_complete_input"
             className="autoCompleteInput"
             type="text"
+            placeholder="type something cool"
             value={value}
             name={inputName}
             onFocus={handleInputFocus}
