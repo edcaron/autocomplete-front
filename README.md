@@ -9,9 +9,10 @@ This is the frontend code for the global search component
 ```
 (cd .devcontainer; docker-compose up -d)
 
-docker exec -t node_autocomplete cd /workspace; npm install
+cp .env.example .env
 
 docker exec -t node_autocomplete cd /workspace; npm install
+
 docker exec -t node_autocomplete cd /workspace; npm start
 
 ```
