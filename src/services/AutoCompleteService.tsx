@@ -8,7 +8,7 @@ export default class AutoCompleteService implements AutoCompleteServiceInterface
 
     async getSuggestions(search: string): Promise<string[]> {
                 
-        if (search.trim().length == 0) {
+        if (search.trim().length === 0) {
             return [];
         }
 
